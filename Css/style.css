@@ -116,6 +116,7 @@ a{
     font-size: 25px;
     font-family: oswald;
     padding-left: 45px;
+    font-weight: 600;
 }
 
 .info-cnt span{
@@ -156,6 +157,8 @@ a{
     font-size: 25px;
     margin-top: 10px;
     padding-left: 40px;
+    font-family: oswald;
+    font-weight: 600;
 }
 
 .all-product{
