@@ -1,0 +1,264 @@
+
+
+/* common css  */
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* common css ends */
+/* section css */
+.heading h1{
+   font-size: 58px;
+   text-align: center;
+   font-family: oswald;
+   font-weight: 600;
+   margin-top: 20px;
+   margin-bottom: 50px;
+}
+
+.heading span{
+    color: #f7444e;
+}
+
+.card-content{
+    background-color: aliceblue;
+    width: 100%;
+    height: 450px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+    position: relative;
+}
+
+.card-content img {
+    width: 355px;
+    height: 300px;
+    padding-left: 80px;
+    margin-top: 25px;
+}
+
+.card-content .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: #444;
+    text-transform: uppercase;
+    padding: 200px 0;
+    border-radius: 5px;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: 0.50s;
+    -webkit-transition: 0.50s;
+    -moz-transition: 0.50s;
+    -ms-transition: 0.50s;
+    -o-transition: 0.50s;
+}
+
+.card-content:hover .overlay{
+    transform: scaleY(1);
+}
+
+
+.overlay .Btn{
+    border: 2px solid #f7444e;
+    padding: 5px 40px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-family: oswald;
+    font-weight: 600;
+    color: #fff;
+    background-color: #f7444e;
+    text-align: center;
+    margin-left: 130px;
+    transition: 0.45s;
+   
+}
+
+.overlay .Btn:hover{
+    background-color: transparent;
+    color: #f7444e;
+}
+
+.overlay .Btn2{
+    border: 2px solid #f7444e;
+    padding: 5px 53px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-family: oswald;
+    font-weight: 600;
+    color: #fff;
+    background-color: #000000;
+    text-align: center;
+    margin-left: 128px;
+    transition: 0.45s;
+}
+
+.overlay .Btn2:hover{
+    background-color: transparent;
+}
+
+
+.info-cnt h4{
+    margin-top: 10px;
+    font-size: 25px;
+    font-family: oswald;
+    padding-left: 45px;
+}
+
+.info-cnt span{
+    margin-top: 15px;
+    font-size: 25px;
+    font-family: oswald;
+    color: black;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.info-cnt i{
+    color: #f7444e;
+    font-size: 25px;
+    padding-left: 40px;
+}
+
+
+.info-cnt2 span{
+    margin-top: 15px;
+    padding-right: 20px;
+    font-size: 25px;
+    font-family: oswald;
+    color: black;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.info-cnt2 i{
+    color: #f7444e;
+    font-size: 25px;
+    padding-left: 20px;
+
+}
+
+
+.info-cnt2 h4{
+    font-size: 25px;
+    margin-top: 10px;
+    padding-left: 40px;
+}
+
+.all-product{
+    margin-top: 80px; 
+    padding-left: 39%;
+}
+
+.all-product a{
+    border: 2px solid #f7444e;
+    padding: 10px 20px;
+    border-radius: 15px;
+    background-color: #f7444e;
+    color: #fff;
+    font-size: 25px;
+    font-family: oswald;
+    font-weight: 600;
+    transition: 0.35s;
+   
+}
+.all-product a:hover{
+    background-color: transparent;
+    color: #f7444e;
+}
+
+.Discount-cnt{
+    margin-top: 100px;
+    background-color: #d4ced0;
+    width: 100%;
+    height: 400px;
+}
+
+.Discount-cnt h2{
+    padding-top: 48px;
+    text-align: center;
+    font-size: 35px;
+    font-family: oswald;
+    font-weight: 600;
+}
+
+.Discount-cnt p{
+    text-align: center;
+    font-size: 16px;
+    font-family: oswald;
+}
+
+.Discount-cnt input{
+    margin-left: 30%;
+    margin-bottom: 10px;
+    width: 40%;
+    height: 60px;
+    border: none;
+    border-radius: 30px;
+    
+}
+
+.Discount-cnt input::placeholder{
+    padding-left: 30px;
+    font-size: 20px;
+    font-family: oswald;
+}
+
+.subscribe{
+    margin-top: -80px; 
+    margin-bottom: 20px;
+    padding-left: 43%;
+}
+
+.subscribe .btn{
+    border: 2px solid #f7444e;
+    padding: 10px 20px;
+    border-radius: 15px;
+    background-color: #f7444e;
+    color: #fff;
+    font-size: 25px;
+    font-family: oswald;
+    font-weight: 600;
+    transition: 0.35s;
+}
+
+
+.msg{
+    position: fixed;
+    top: 40px;
+    right: 10px;
+    background-color: #fff;
+    padding: 10px 20px 2px ;
+    font-size: 25px;
+    font-family: oswald;
+    font-weight: 600;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    transform:translateX(130%) ;
+    opacity: 0;
+    transition: 0.80s cubic-bezier(0,1.22,.67,1.15);
+}
+
+.msg.active{
+    opacity: 1;
+    transform: translateX(0);
+    
+}
+
+
+
+
+/* section css ends */

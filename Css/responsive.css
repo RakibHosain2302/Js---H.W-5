@@ -1,0 +1,56 @@
+
+
+@media (min-width:320px) and (max-width:991px){
+    .card-content {
+        margin-top: 30px;
+    }
+
+    .card-content img {
+        width: 300px;
+    }
+
+    .all-product {
+        margin-top: 40px;
+        padding-left: 25%;
+    }
+
+    .all-product a {
+        font-size: 20px;
+    }
+
+    .Discount-cnt h2 {
+        padding-top: 25px;
+        font-size: 48px;
+    }
+
+    .Discount-cnt p {
+        font-size: 24px;
+    }
+
+    .Discount-cnt input {
+        margin-left: 8%;
+        margin-bottom: 14px;
+        width: 85%;
+        height: 50px;
+        border-radius: 25px;
+    }
+
+    .Discount-cnt {
+        height: 460px;
+    }
+
+    .subscribe {
+        margin-top: -70px;
+        margin-bottom: 0px;
+        padding-left: 34%;
+    }
+
+    .subscribe .btn {
+        font-size: 20px;
+    }
+
+    .msg {
+        padding: 10px 20px 2px;
+        font-size: 15px;
+    }
+}
